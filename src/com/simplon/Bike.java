@@ -11,7 +11,7 @@ public class Bike extends Vehicle {
             this.price = price;
     }
 
-    public float getPriceWithTax() { // on ne met pas public ?
+    public float getPriceWithTax() {
         return this.price+1f;
     }
 
