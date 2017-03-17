@@ -23,23 +23,14 @@ public class Garage {
 
 
     public void addCar(Car car) {
-
-        this.cars.add(car);
         this.vehicules.add(car);
     }
 
-    // add one or more vehicless throught a list of vehicles
     public void addCars(List<Car> cars) {
-
-            this.cars.addAll(cars);
         this.vehicules.addAll(cars);
-
     }
 
-    // add one or more vehicless throught a list of vehicles
     public void addBikes(List<Bike> bikes) {
-
-        this.bikes.addAll(bikes);
         this.vehicules.addAll(bikes);
     }
 
